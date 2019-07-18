@@ -60,6 +60,10 @@ li a:hover {
     float: left;
     width: 180px;
     height: 180px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
 .clearfix {
@@ -127,7 +131,7 @@ body {
 }
 
 .main-body {
-    width: 960px;
+    max-width: 960px;
     background-color: lightgrey;
     padding: 10px;
     box-shadow: 10px 10px 25px grey;
@@ -167,15 +171,56 @@ footer {
     display: inline;
 }
 
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
+
   
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
+  .container {
+      display: inline;
+      position: relative;
+      max-width: 960px;
+      height: auto;
+      bottom: auto;
+      
+
+
+      
+  }
+
+  .center {
+     
+    top: -60px;
+    text-align: center;
+    height: 60px;
+   
+
+    
+    position: absolute;
+    background-color:rgb(63, 179, 163); 
+    color: white;
   
+    width: 350px;
+    margin-left: 40px;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+  }
+
+  .photos {
+      width: 350px;
+      height: 350px;
+      margin-left: 40px;
+      margin-top: 80px;
+  }
+
+  .entirety: {
+
+    display: inline;
+      position: relative;
+      max-width: 960px;
+      height: auto;
+      
+  }
