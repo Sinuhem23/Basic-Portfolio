@@ -1,2 +1,4 @@
 # Basic-Portfolio
-Life up to Summer 19'
+
+Basic Portfolio of myself under "About".
+Portfolio info as well as contact.
